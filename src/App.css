@@ -1,5 +1,14 @@
+body{
+  min-height: 100vh;
+  background: rgb(255,255,255);
+  background: -moz-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(185,135,71,1) 40%, rgba(87,1,1,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(185,135,71,1) 40%, rgba(87,1,1,1) 100%);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(185,135,71,1) 40%, rgba(87,1,1,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#570101",GradientType=1);
+}
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -14,7 +23,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
