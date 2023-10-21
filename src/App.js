@@ -1,35 +1,33 @@
-import './App.css';
+import "./App.css";
 import Navbar from "./components/Navbar";
 import LandingPage from "./components/LandingPage";
 import SignUp from "./components/SignUp";
-import SignIn from "./components/SignIn"
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-}from "react-router-dom";
+import SignIn from "./components/SignIn";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+// import 
 
-
-function App(){
+function App() {
   return (
     <>
-    <SignUp/>
-    {/* <Router>
-    <Switch>
-          <Route path="/SignUp">
-            <SignUp />
-          </Route>
-          <Route path="/SignIn">
-            <SignIn/>
-          </Route>
-          <Route path="/">
-          <LandingPage/>
-          </Route>
-        </Switch>
+    <Router>
+      <Switch>
+      {/* <Route exact path = "/Card">
+        <Card>
+      </Route> */}
+      <Route exact path="/SignIn">
+        <SignIn />
+        </Route>
 
-    <SignUp/>
-    </Router> */}
+        <Route exact path="/SignUp">
+        <SignUp />
+        </Route>
+
+        <Route exact path ="/">
+        <LandingPage/>
+        </Route>
+
+      </Switch>
+      </Router>
     </>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
-
-function Navbar() {
+import NSLogo from "./Logo"
+function Navbar({logo}) {
   return (
     <>
     </>

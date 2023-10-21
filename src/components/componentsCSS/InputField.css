@@ -6,3 +6,13 @@ input{
     width: 60px;
     border: 2px solid black;
 }
+.input_text_css {
+    /* border: 2px solid black; */
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid black; */
+    width: auto;
+    height: 30px;
+    font-size: 20px;
+  }
+  

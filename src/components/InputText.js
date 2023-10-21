@@ -1,8 +1,8 @@
 import React from 'react'
 import "./componentsCSS/InputText.css"
-function InputText() {
+function InputText({input_text, className}) {
   return (
-    <div>Name</div>
+    <div className={className}>{input_text}</div>
   )
 }
 
