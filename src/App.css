@@ -7,4 +7,6 @@ body{
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#570101",GradientType=1); */
   background: rgb(108,189,253);
   background: linear-gradient(0deg, rgba(108,189,253,1) 0%, rgba(114,33,73,1) 62%, rgba(30,55,108,1) 100%);
+  background-attachment: fixed;
 }
+

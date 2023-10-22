@@ -10,7 +10,7 @@ body{
     --prim_color: white;
     --sec_color: black; 
 }
-.container{
+.container-LandingPage{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,13 +26,13 @@ body{
     display: block;
 }
 
-h1{
+.title{
     color: var(--sec_color);
     font-size: 96px;
     font-family: var(--prim_font);
     margin: 0;
 }
-h3{
+.tagline{
     color: var(--sec_color);
     font-size: 35px;
     font-family: var(--sec_font);
@@ -57,4 +57,10 @@ h3{
 }
 h1{
     display: block;
+}
+
+.test{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
 }

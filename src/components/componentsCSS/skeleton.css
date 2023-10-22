@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+:root{
+    --prim_font : "Copperplate Gothic", serif;
+    --sec_font: "Century Gothic", sans-serif;
+    --prim_color: white;
+    --sec_color: black; 
+}

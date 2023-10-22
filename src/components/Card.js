@@ -1,11 +1,21 @@
-import React from 'react'
-
+import React from "react";
+import "./componentsCSS/Card.css";
+import Navbar from "./Navbar";
+import {Link} from 'react-router-dom'
 function Card() {
   return (
     <>
-    
+
+      <div className="card">
+      <div className="pro-icon"></div>
+        <div className="inner-box">
+          <div className="view-button"><Link  to = "/profile-page">
+            View
+          </Link></div>
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default Card
+export default Card;
