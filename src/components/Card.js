@@ -9,9 +9,12 @@ function Card() {
       <div className="card">
       <div className="pro-icon"></div>
         <div className="inner-box">
+          <p className= "card-user-name">Mr. Advocate</p>
           <div className="view-button"><Link  to = "/profile-page">
             View
           </Link></div>
+
+
         </div>
       </div>
     </>

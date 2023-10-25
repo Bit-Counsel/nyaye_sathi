@@ -3,28 +3,14 @@
     padding: 0 ;
     box-sizing: border-box;
 }
+
 .grids{
+    width: 80%;
+    height: 100vh;
     display:grid;
     justify-content: center;
-    gap : 10px;
-    column-gap: 10px;
+    gap : 30px;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-
-}
-.card { 
-    border: 2px solid black;
-    width: 253px;
-    height: 240px;
-    border-radius: 26px;
-    margin: auto;
-    margin-top: 40px;
-    z-index: 1;
-}
-.inner-box{
-    border: 2px solid black;
-    margin-top: 50%;
-    z-index: -1;
-    width: 253px;
-    height: 50%;
+    margin: 40px auto;
 }

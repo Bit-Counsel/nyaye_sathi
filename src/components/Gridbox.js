@@ -1,25 +1,29 @@
 import React from "react";
 import "./componentsCSS/Card.css";
-import Navbar from "./Navbar"
-import Card from "./Card"
+import Navbar from "./Navbar";
+import Card from "./Card";
+import "./componentsCSS/gridbox.css"
 function Gridbox() {
   return (
     <>
-
+      <Navbar></Navbar>
       <div className="grids">
-        <div className="card">
-          <div className="inner-box">
-            box
-          </div>
-        </div>
-        <div className="card">box</div>
-        <div className="card">box</div>
-        <div className="card">box</div>
-        <div className="card">box</div>
-        <div className="card">box</div>
-        <div className="card">box</div>
-        <div className="card">box</div>
-        <div className="card">box</div>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
       </div>
     </>
   );

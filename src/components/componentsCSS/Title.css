@@ -1,5 +1,7 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
-    font-family: "Copperplate Gothic";
-    /* font-size: 96px; */
-    
+    font-family: "Copperplate Gothic";    
 }

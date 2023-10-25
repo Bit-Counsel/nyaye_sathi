@@ -6,10 +6,12 @@ body{
 :root{
     --prim-color: #FFC080 ;
     --sec-color: #FFE0C0;
+    --border-color: #f18110 ;
+    --icon-color: coral;
 }
 .card { 
     position :relative;
-    border: 2px solid black;
+    border:  4px solid var(--border-color);
     width: 253px;
     height: 240px;
     border-radius: 26px;
@@ -18,7 +20,8 @@ body{
 }
 .inner-box{
     position: relative;
-    /* border: 2px solid black; */
+    border-bottom:  4px solid var(--border-color);
+    
     /* top: 26%; */
     z-index: 0;
     border-radius: 26px;
@@ -35,15 +38,22 @@ body{
     height: 140px;
     top: 15%;
     left: 20%;
-    background-color: lightblue;
+    background-color: var(--icon-color);
 }
 .view-button{
     width: 150px;
     /* border: 2px solid black; */
     position: relative;
     left: 17%;
-    top: 60%;
+    top: 45%;
     border-radius : 30px;
     background-color: white;
     text-align: center;
+}
+.card-user-name{
+    position: relative;
+    text-align: center;
+    top: 40%;
+    color: black;
+    font-size: 14px;
 }

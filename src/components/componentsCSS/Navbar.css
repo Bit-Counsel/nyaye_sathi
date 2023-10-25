@@ -1,24 +1,33 @@
-body{
+*{
     margin: 0;
-    padding:0;
+    padding: 0;
+    /* border: 2px solid black; */
     box-sizing: border-box;
 }
-nav{
+:root{
+    --prim_font : "Copperplate Gothic", serif;
+    --sec_font: "Century Gothic", sans-serif;
+    --prim_color: white;
+    --sec_color: black; 
+}
+.container-nav{
     /* border:2px solid black;  */
     width: 100%;
     height: 60px;
     display: flex;
     align-items: center;
+
 }
 ul{
     display: flex;
-    margin-left: 50%;
+    margin-left: 40%;
     align-items: center;
+    margin-top: 20px;
 }
 #item{
     margin-left: auto;
     font-size: 18px;
-    color: white;
+    color: var(--sec_color);
     margin-right : 2rem;
     margin-left: 2rem;
 }
@@ -29,12 +38,32 @@ ul{
     margin-right: 2rem;      
     border: 2px solid black;
 }
-.Logo {
-    border:2px solid black;
-    width: 60px;    
+.nav-logo-title{
+    margin-top: 3vh;
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo {
+    /* border:2px solid black; */
+    width: 60px;
     height: 60px;
-    margin-left: 2rem;
+    /* margin: 2rem; */
+    /* margin-top: 2.5rem; */
     border-radius: 50%;
+    background-image: url("../../photo/NSLogo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.nav-title{
+    display: flex;
+    width: 12rem;
+    /* border: 2px solid black; */
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    left: 1rem;
 }
 
 .filters{
@@ -43,7 +72,7 @@ ul{
     align-items: center;
     width :100%;
     height: 60px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-top : 4px;
     
 }

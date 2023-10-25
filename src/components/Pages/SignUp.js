@@ -1,19 +1,19 @@
 import React from "react";
-import "./componentsCSS/SignUp.css";
-import Logo from "./Logo";
-import Title from "./Title";
-import InputField from "./InputField";
-import InputText from "./InputText";
-import googleIcon from "../photo/googleIcon.png";
-import {Link} from "react-router-dom"
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "../componentsCSS/SignUp.css";
+import Logo from "../Logo";
+import Title from "../Title";
+import InputField from "../InputField";
+import InputText from "../InputText";
+import googleIcon from "../../photo/googleIcon.png";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 import SignIn from "./SignIn";
 function SignUp() {
   return (
     <>
-      <div className=" mx-auto container">
+      <div className="container-signUp">
         <Logo size="large-logo" />
-        <h1 className="title">
+        <h1 className="title-signUp">
           <Link to="/LandingPage"> Nyaye Sathi</Link>
         </h1>
 
@@ -24,7 +24,6 @@ function SignUp() {
           <input type="text" className="input_box" />
           <input type="text" className="input_box" />
           <input type="text" className="input_box" />
-          {/* <div className="box" id="box4">Email</div> */}
           <InputText
             input_text="Email"
             className="

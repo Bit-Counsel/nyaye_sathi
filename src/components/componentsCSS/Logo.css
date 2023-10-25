@@ -5,7 +5,8 @@ body{
 .large-logo{
     width: 100px ;
     height: 100px;
-    margin: 3px;
+    margin: 0 auto;
+    margin-top: 5vh;
 }
 
 .small-logo{
