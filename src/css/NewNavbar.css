@@ -1,0 +1,65 @@
+@import url('https://fonts.cdnfonts.com/css/copperplate-gothic-std');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+}
+:root{
+    --prim_font : "Copperplate Gothic", serif;
+    --sec_font: "Poppins", sans-serif;
+    --prim-color: white;
+    --sec-color: black;
+    --btn-color: lightblue;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+
+}
+.nav-container{
+
+    width: 100%;
+    display: flex;
+    height: 10vh;
+}
+.nav-left{
+    width: 33%;
+    border: 7px solid yellowgreen;
+    display: flex;
+    /* justify-content: start; */
+    padding: 0;
+    /* text-align: center; */
+}
+
+.nav-logo{
+    width: 8%;
+    border : 1px solid black;
+    background-image: url("../assets/NSLogo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.nav-title{
+    /* width: 80%; */
+    /* background-color: black; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    border: 2px solid aqua;
+}
+.search-Bar{
+    width: 33%;
+    border: 2px solid black;
+}
+.bar{
+    width : 100%;
+    border: 2px solid black;
+}
+.nav-right{
+    width : 33%;
+    border: 2px solid red;
+    display: flex;
+}

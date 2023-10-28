@@ -1,0 +1,12 @@
+body{
+    background-image: url("../assets/background_original.png");
+    background-attachment: fixed;
+    background-size: cover; /* You can adjust this value to control the image size */
+  }
+.test{
+    display: flex;
+    width : 100px ;
+    height: 100px ;
+    border: 2px solid black;
+  }
+

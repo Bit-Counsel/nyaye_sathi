@@ -1,0 +1,20 @@
+
+.sidebar-button{
+    margin-top :20%;
+    background-color: black;
+    width: 150px;
+    height : 30px;
+    border-top-left-radius: 20px; 
+    border-bottom-left-radius: 20px; 
+    text-align: center;
+    justify-self: flex-end;
+    font:  20px var(--sec_font) ;
+    color: white;
+        
+}
+.textSmall {
+    font-size: 19px;
+}
+.textLarge {
+    font-size: 20px;
+}

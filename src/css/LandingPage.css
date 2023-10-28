@@ -1,0 +1,90 @@
+@import url('https://fonts.cdnfonts.com/css/copperplate-gothic-std');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --prim_font : "Copperplate Gothic", serif;
+    --sec_font: "Poppins", sans-serif;
+    --prim-color: white;
+    --sec-color: black;
+    --btn-color: lightblue;
+}
+
+.container-LandingPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    /* border: 1px solid black; */
+
+}
+
+.logo {
+    width: 100px;
+    min-height: 100px;
+    display: block;
+}
+
+.title-landingpage {
+    color: var(--sec_color);
+    font: bold 96px var(--prim_font);
+    margin: 0;
+}
+
+.tagline {
+    color: var(--sec_color);
+    font:  32px var(--sec_font);
+    margin-top: 10px;
+    text-decoration: underline;
+
+
+}
+.btns{
+    /* background-color: black; */
+    width: 420px;
+    height : 70px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-family: "Century Gothic", sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 29px;
+    position: relative;
+    top: 40px;
+}
+.signUp_btn{
+    width: 40%;
+    border: 2px solid green;
+    text-align: center;
+    border-radius : 50px;
+    background-color: black;
+}
+.separating-bar{
+    font: bold 48px black;
+    color: black;
+    position : relative;
+    bottom: 6px;
+}
+.signIn_btn{
+    width: 40%;
+    /* border: 2px solid green; */
+    background-color: black;
+    text-align: center;
+    border-radius : 50px;
+}
+h1{
+    display: block;
+}
+
+.test{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
