@@ -2,8 +2,13 @@ import React from "react";
 
 import "@css/InputText.css";
 
-function InputText({ input_text, className }) {
-    return <div className={className}>{input_text}</div>;
+interface IProps {
+    input_text: string;
+    className?: string;
+}
+
+function InputText(props: IProps) {
+    return <div className={props.className}>{props.input_text}</div>;
 }
 
 export default InputText;

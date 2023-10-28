@@ -5,7 +5,11 @@ import googleIcon from "@assets/googleIcon.png";
 
 import "@css/Logo.css";
 
-function Logo(props) {
+interface IProps {
+    size: string;
+}
+
+function Logo(props: IProps) {
     return <img src={NSLogo} alt="Logo" className={props.size} />;
 }
 

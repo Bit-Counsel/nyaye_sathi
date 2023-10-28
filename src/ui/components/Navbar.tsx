@@ -9,7 +9,12 @@ import NSLogo from "@assets/NSLogo.png";
 
 import "@css/Navbar.css";
 
-function Navbar(props) {
+interface IProps {
+    mode: string;
+    OnOff: string;
+}
+
+function Navbar(props: IProps) {
     return (
         <>
             <nav className={`container-nav-${props.mode}`}>

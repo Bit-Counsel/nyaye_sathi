@@ -2,7 +2,12 @@ import React from "react";
 
 import "@css/SidebarBtn.css";
 
-function SidebarBtn(props) {
+interface IProps {
+    BtnText: string;
+    BtnTextSize?: string;
+}
+
+function SidebarBtn(props: IProps) {
     return (
         <>
             <div className={`sidebar-button ${props.BtnTextSize}`}>
