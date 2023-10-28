@@ -6,7 +6,7 @@ import "./componentsCSS/gridbox.css"
 function Gridbox() {
   return (
     <>
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
       <div className="grids">
         <Card></Card>
         <Card></Card>

@@ -1,42 +1,51 @@
-import React from "react";
+import React, { useState } from "react";
 import NSLogo from "../photo/NSLogo.png";
 import "./componentsCSS/Navbar.css";
-import { Link } from "react-router-dom";
 import LandingPage from "./Pages/LandingPage";
 import Title from "./Title";
-
-function Navbar() {
+import SearchBar from "./SearchBar";
+function Navbar(props) {
   return (
     <>
-      <nav className="container-nav">
+      <nav className={`container-nav-${props.mode}`}>
         <div className="nav-logo-title">
-        <div className="nav-logo"></div>
-        <h1 className="nav-title">Nyaye Sathi</h1>
+          <div className={`nav-logo-${props.mode}`}></div>
+          <h1 className="nav-title">Nyaye Sathi</h1>
+          
         </div>
+      
+
+        {/* <div className="searchBar"></div> */}
+        
+
         <ul className="list">
-          <Link id="item" to="/LandingPage">
+          <li id={`item-${props.mode}`} to="/LandingPage">
             Home
-          </Link>
-          <Link id="item" to="/SignUp">
+          </li>
+          <li id={`item-${props.mode}`} to="/SignUp">
             About
-          </Link>
-          <Link id="item" to="/SignIn">
+          </li>
+          <li id={`item-${props.mode}`} to="/SignIn">
             Contact
-          </Link>
-          <Link id="item" to="/user-profile">
+          </li>
+          <li id={`item-${props.mode}`} to="/user-profile">
             Profile
-          </Link>
+          </li>
           <div className="profile-icon">
             <img src="src/photo/NSLogo.png" alt="photo" />
           </div>
         </ul>
       </nav>
-      <div className="filters">
-        {" "}
-        <button className="filter-button">Filters/Sort</button>
+      <div className={`filter-${props.OnOff}`}>
+        <button className={`filter_button-${props.OnOff}`}>Filters/Sort</button>
       </div>
     </>
   );
 }
 
 export default Navbar;
+
+Navbar.defaultProps = {
+  mode: "transparent",
+  OnOff: "on",
+};

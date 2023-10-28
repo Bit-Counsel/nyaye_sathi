@@ -1,12 +1,12 @@
 @import url('https://fonts.cdnfonts.com/css/copperplate-gothic-std');
 
-body{
+*{
     margin: 0;
     box-sizing: border-box;
 }
 :root{
     --prim_font : "Copperplate Gothic", serif;
-    --sec_font: "Century Gothic", sans-serif;
+    --sec_font: "Poppins", sans-serif;
     --prim-color: white;
     --sec-color: black; 
     --btn-color: lightblue;
@@ -29,34 +29,51 @@ body{
 
 .title-landingpage{
     color: var(--sec_color);
-    font-size: 96px;
-    font-family: var(--prim_font);
+    font: bold 96px var(--prim_font);
     margin: 0;
 }
 .tagline{
     color: var(--sec_color);
-    font-size: 35px;
-    font-family: var(--sec_font);
+    font:  32px var(--sec_font);
     margin-top: 10px;
     text-decoration: underline;
-    font-weight: 100;
+    
     
 }
-.signUp_btn{
-    background-color: black;
-    width: 220px;
+.btns{
+    /* background-color: black; */
+    width: 420px;
     height : 70px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     font-family: "Century Gothic", sans-serif;
     font-weight: 400;
     color: white;
-    border-radius : 50px;
     font-size: 29px;
     position: relative;
     top: 40px;
+}
+.signUp_btn{
+    width: 40%;
+    border: 2px solid green;
+    text-align: center;
+    border-radius : 50px;
+    background-color: black;
+}
+.separating-bar{
+    font: bold 48px black;
+    color: black;
+    position : relative;
+    bottom: 6px;
+}
+.signIn_btn{
+    width: 40%;
+    /* border: 2px solid green; */
+    background-color: black;
+    text-align: center;
+    border-radius : 50px;
 }
 h1{
     display: block;
