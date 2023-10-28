@@ -4,6 +4,7 @@ import Navbar from "@components/Navbar";
 import SidebarBtn from "@components/SidebarBtn";
 
 import "@css/SidebarForums.css";
+
 function SidebarForums() {
     return (
         <>
