@@ -1,5 +1,5 @@
 import React from 'react'
-import "./componentsCSS/SidebarBtn.css"
+import "../componentsCSS/SidebarBtn.css"
 
 function SidebarBtn(props) {
   return (

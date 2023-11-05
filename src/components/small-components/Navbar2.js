@@ -1,21 +1,20 @@
 import React, { useState } from "react";
-import NSLogo from "../photo/NSLogo.png";
-import "./componentsCSS/Navbar.css";
-import LandingPage from "./Pages/LandingPage";
+import NSLogo from "../../photo/NSLogo.png";
+// import "../componentsCSS/Navbar.css";
+import LandingPage from "../Pages/LandingPage";
 import Title from "./Title";
-import SearchBar from "./SearchBar";
-function Navbar(props) {
+
+function Navbar({props}) {
   return (
     <>
       <nav className={`container-nav-${props.mode}`}>
         <div className="nav-logo-title">
-          <div className={`nav-logo-${props.mode}`}></div>
+          {/* <div className={`nav-logo-${props.mode}`}></div> */}
           <h1 className="nav-title">Nyaye Sathi</h1>
           
         </div>
       
 
-        {/* <div className="searchBar"></div> */}
         
 
         <ul className="list">

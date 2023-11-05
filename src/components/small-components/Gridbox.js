@@ -1,8 +1,8 @@
 import React from "react";
-import "./componentsCSS/Card.css";
+import "../componentsCSS/Card.css";
 import Navbar from "./Navbar";
 import Card from "./Card";
-import "./componentsCSS/gridbox.css"
+import "../componentsCSS/gridbox.css"
 function Gridbox() {
   return (
     <>

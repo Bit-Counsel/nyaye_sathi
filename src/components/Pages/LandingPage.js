@@ -3,7 +3,7 @@ import NSLogo from "../../photo/NSLogo.png";
 import googleIcon from "../../photo/googleIcon.png";
 import "../componentsCSS/LandingPage.css";
 import { Link } from "react-router-dom";
-import Card from "../Card";
+import Card from "../small-components/Card";
 function LandingPage() {
   return (
     <>

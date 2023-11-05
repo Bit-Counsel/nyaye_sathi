@@ -10,7 +10,40 @@
   --prim_color: white;
   --sec_color: black;
 }
-/* .container-searchBar{
+.search-Bar-transparent{
+  width: 100rem;
+  
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   border: 2px solid black;
-  width: 100px; 
-} */
+}
+.search-Bar-dark{
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.bar-transparent{
+  width : 100%;
+  display: flex;
+  align-items: center;    
+  height: 60%;
+  font: bold 20px var(--sec_font);
+  border: 2px solid black;
+  border-radius: 20px;
+  padding-left: 20px;
+}
+
+.bar-dark{
+  width : 100%;
+  display: flex;
+  align-items: center;    
+  height: 60%;
+  font: bold 20px var(--sec_font);
+  border: 2px solid white;
+  border-radius: 20px;
+  padding-left: 20px;
+  background-color: var(--prim-color);
+}

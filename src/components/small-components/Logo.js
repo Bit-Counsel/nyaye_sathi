@@ -1,7 +1,7 @@
 import React from 'react'
-import NSLogo from "../photo/NSLogo.png";
+import NSLogo from "../../photo/NSLogo.png";
 // import googleIcon from "../photo/googleIcon.png";
-import "./componentsCSS/Logo.css";
+import "../componentsCSS/Logo.css";
 
 function Logo(props) {
   return (

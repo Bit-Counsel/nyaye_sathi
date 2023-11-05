@@ -1,9 +1,9 @@
 import React from "react";
 import "../componentsCSS/SignUp.css";
-import Logo from "../Logo";
-import Title from "../Title";
-import InputField from "../InputField";
-import InputText from "../InputText";
+import Logo from "../small-components/Logo";
+import Title from "../small-components/Title";
+import InputField from "../small-components/InputField";
+import InputText from "../small-components/InputText";
 import googleIcon from "../../photo/googleIcon.png";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 

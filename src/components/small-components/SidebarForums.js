@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import "./componentsCSS/SidebarForums.css";
+import "../componentsCSS/SidebarForums.css";
 import Navbar from "./Navbar";
 import SidebarBtn from "./SidebarBtn";
 function SidebarForums() {
   return (
     <>
-      <Navbar mode = "black" OnOff = "off"></Navbar>
       <div className="sidebar">
         <SidebarBtn BtnText="Home" />
         <div className="sidebarBox">
