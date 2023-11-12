@@ -1,0 +1,18 @@
+@import url('https://fonts.cdnfonts.com/css/copperplate-gothic-std');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+}
+:root{
+    --prim_font : "Copperplate Gothic", serif;
+    --sec_font: "Poppins", sans-serif;
+    --prim-color: white;
+    --sec-color: black; 
+    --btn-color: lightblue;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
