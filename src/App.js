@@ -9,6 +9,7 @@ import CommunityForumsPage from "./components/Pages/CommunityForumsPage"
 import Error404 from "./components/Pages/Error404"
 
 import SidebarForums from "./components/small-components/SidebarForums";
+import Sidebar from "./components/small-components/Sidebar";
 import Navbar from "./components/small-components/Navbar";
 import SearchBar from "./components/small-components/SearchBar";
 
@@ -24,8 +25,10 @@ function App() {
           <Route path="/Navbar" element ={<Navbar/>}></Route>
           <Route path="/CommunityForumsPage" element ={<CommunityForumsPage/>}></Route>
           <Route path="/SidebarForums" element ={<SidebarForums/>}></Route>
+          <Route path="/Sidebar" element ={<Sidebar/>}></Route>
           <Route path="/Navbar" element ={<Navbar/>}></Route>
           <Route path="/SearchBar" element ={<SearchBar/>}></Route>
+          {/* <Route path="/Error404" element ={<Error404/>}></Route> */}
           <Route path = '*' element = {<Error404/>}/>
         </Routes>
       </BrowserRouter>

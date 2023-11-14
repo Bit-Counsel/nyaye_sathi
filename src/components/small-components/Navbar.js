@@ -8,7 +8,7 @@ function Navbar(props) {
     <>
       <div className={` fixed nav-container-${props.mode}`}>
         <div className={`nav-left-${props.mode}`}>
-          <div className={`nav-logo-${props.mode}`}>
+          <Link to= "/" className={`nav-logo-${props.mode}`}>
             {
               props.mode === 'transparent'? (
                 <img src={NSLogo} alt="" />
@@ -17,8 +17,10 @@ function Navbar(props) {
               )
             }
             
-          </div>
-          <div className={`nav-title-${props.mode}`}>Nyaye Sathi</div>
+          </Link>
+          
+          <Link to = "/" className={`nav-title-${props.mode}`}>Nyaye Sathi</Link>
+          
         </div>
 
         <div className={`search-Bar-${props.mode}`}>
@@ -31,7 +33,7 @@ function Navbar(props) {
               <Link  to="/ServicesPage">Home</Link>
             </button>
             <button id={`item `}><Link to = "/About"> About</Link></button>
-            <button id={`item `}><Link to = "/Contact"> Contact </Link></button>
+            <button id={`item `}><Link to = "/CommunityForumsPage"> CmtyFrms </Link></button>
             <button id={`item `}><Link to = "/user-profile"> Profile</Link></button>
           </ul>
           <div className="profile-icon">

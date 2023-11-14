@@ -3,18 +3,22 @@ import "../componentsCSS/CommunityForumsPage.css";
 import Navbar from "../small-components/Navbar";
 import SearchBar from "../small-components/SearchBar";
 import SidebarForums from "../small-components/SidebarForums";
+import Sidebar from "../small-components/Sidebar";
 function CommunityForumsPage() {
   return (
     <>
       <Navbar />
-      <div className=" border-black w-full h-screen border flex">
-        <div className="1/3">
-          <SidebarForums />
+      <div className=" community border-blue-900 border my-1/10">
+        <Sidebar mode="dark" />
+        <div className = "w-max  border border-black flex flex-col ">
+          <div className="searchBar">
+            <p>Search here</p>
+          </div>
+          <div>
+            Question 1
+          </div>
         </div>
-        <div className=" w-max border-3 border-green flex ">
-          <SearchBar />
-          <button className="border-black border w-4/5  ">hello</button>
-        </div>
+        <button className="askBtn">Ask a question</button>
       </div>
     </>
   );
