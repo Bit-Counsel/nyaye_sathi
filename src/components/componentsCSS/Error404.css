@@ -1,12 +1,12 @@
 @import url('https://fonts.cdnfonts.com/css/copperplate-gothic-std');
-
+@import url('https://fonts.cdnfonts.com/css/copperplate');
 *{
     margin: 0;
     box-sizing: border-box;
     /* border: 2px solid black; */
 }
 :root{
-    --prim_font : "Copperplate Gothic", serif;
+    --prim_font : "Copperplate Gothic", sans-serif;
     --sec_font: "Poppins", sans-serif;
     --prim-color: white;
     --sec-color: black; 
@@ -16,3 +16,4 @@ html,body{
     width: 100vw;
     height: 100vh;
 }
+

@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 :root{
-    --prim_font : "Copperplate Gothic", serif;
+    --prim_font : "Copperplate Gothic","Poppins", serif;
     --sec_font: "Poppins", sans-serif;
     --prim-color: white;
     --sec-color: black; 

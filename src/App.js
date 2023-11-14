@@ -10,7 +10,6 @@ import Error404 from "./components/Pages/Error404"
 
 import Card from "./components/small-components/Card";
 import Gridbox from "./components/small-components/Gridbox";
-import Test from "./components/small-components/test";
 import SidebarForums from "./components/small-components/SidebarForums";
 import Navbar from "./components/small-components/Navbar";
 import SearchBar from "./components/small-components/SearchBar";
@@ -20,7 +19,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element ={<LandingPage />}></Route>
+          <Route path="*" element ={<LandingPage />}></Route>
           <Route path="/SignIn" element ={<SignIn />}></Route>
           <Route path="/SignUp" element ={<SignUp />}></Route>
           <Route path="/ServicesPage" element ={<ServicesPage />}></Route>
@@ -29,7 +28,6 @@ function App() {
           <Route path="/SidebarForums" element ={<SidebarForums/>}></Route>
           <Route path="/Navbar" element ={<Navbar/>}></Route>
           <Route path="/SearchBar" element ={<SearchBar/>}></Route>
-          {/* <Route path="/Error404" element ={<Error404/>}></Route> */}
           <Route path = '*' element = {<Error404/>}/>
         </Routes>
       </BrowserRouter>
