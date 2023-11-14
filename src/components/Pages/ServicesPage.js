@@ -1,6 +1,7 @@
 import React from 'react'
+
 import "../componentsCSS/ServicesPage.css"
-import Card from "../small-components/Card"
+
 import Gridbox from "../small-components/Gridbox";
 import Navbar from "../small-components/Navbar"
 function ServicesPage() {

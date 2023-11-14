@@ -1,6 +1,7 @@
 import React from "react";
+
 import "../componentsCSS/Card.css";
-import Navbar from "./Navbar";
+
 function Card() {
   return (
     <>

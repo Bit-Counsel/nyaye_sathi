@@ -1,11 +1,15 @@
 import React from "react";
-import "../componentsCSS/SignIn.css";
-import Logo from "../small-components/Logo";
-import Title from "../small-components/Title";
-import InputField from "../small-components/InputField";
-import InputText from "../small-components/InputText";
-import googleIcon from "../../photo/googleIcon.png";
 import {Link} from "react-router-dom";
+
+import "../componentsCSS/SignIn.css";
+
+import googleIcon from "../../photo/googleIcon.png";
+
+import Logo from "../small-components/Logo";
+import InputText from "../small-components/InputText";
+
+
+
 function SignIn() {
   return (
     <>

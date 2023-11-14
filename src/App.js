@@ -8,8 +8,6 @@ import ServicesPage from "./components/Pages/ServicesPage";
 import CommunityForumsPage from "./components/Pages/CommunityForumsPage"
 import Error404 from "./components/Pages/Error404"
 
-import Card from "./components/small-components/Card";
-import Gridbox from "./components/small-components/Gridbox";
 import SidebarForums from "./components/small-components/SidebarForums";
 import Navbar from "./components/small-components/Navbar";
 import SearchBar from "./components/small-components/SearchBar";

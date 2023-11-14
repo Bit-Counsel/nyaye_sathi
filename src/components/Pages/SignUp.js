@@ -1,13 +1,17 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 import "../componentsCSS/SignUp.css";
+
+import SignIn from "./SignIn";
+
 import Logo from "../small-components/Logo";
 import Title from "../small-components/Title";
 import InputField from "../small-components/InputField";
 import InputText from "../small-components/InputText";
-import googleIcon from "../../photo/googleIcon.png";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-import SignIn from "./SignIn";
+import googleIcon from "../../photo/googleIcon.png";
+
 function SignUp() {
   return (
     <>

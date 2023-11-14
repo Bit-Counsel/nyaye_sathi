@@ -10,7 +10,7 @@ function Navbar(props) {
         <div className={`nav-left-${props.mode}`}>
           <div className={`nav-logo-${props.mode}`}>
             {
-              props.mode == 'transparent'? (
+              props.mode === 'transparent'? (
                 <img src={NSLogo} alt="" />
               ) : (
                 <img src={NSLogoWhite} alt="" />
