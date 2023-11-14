@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nyaye_sathi/static/css/main.6d7e66b8.css",
+    "main.js": "/nyaye_sathi/static/js/main.1d439a7c.js",
+    "static/js/787.d607e3b8.chunk.js": "/nyaye_sathi/static/js/787.d607e3b8.chunk.js",
+    "static/media/background_original.png": "/nyaye_sathi/static/media/background_original.5f43908d7acccbdf3d05.png",
+    "index.html": "/nyaye_sathi/index.html",
+    "main.6d7e66b8.css.map": "/nyaye_sathi/static/css/main.6d7e66b8.css.map",
+    "main.1d439a7c.js.map": "/nyaye_sathi/static/js/main.1d439a7c.js.map",
+    "787.d607e3b8.chunk.js.map": "/nyaye_sathi/static/js/787.d607e3b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d7e66b8.css",
+    "static/js/main.1d439a7c.js"
+  ]
+}
