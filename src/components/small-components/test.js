@@ -4,32 +4,14 @@ import "../componentsCSS/test.css";
 function test() {
   return (
     <>
-    <div className= "test">test</div>
-    <div className= "test">test</div>
-    <div className= "test">test</div>
-    <div className= "test">test</div>
-    <div className= "test">test</div>
-    <div className= "test">test</div>
-    <div className= "test">test</div>
-    <div className= "test">test</div>
-    <div className= "test">test</div>
-    <div className= "test">test</div>
-    <div className= "test">test</div>
-    <div className= "test">test</div>
-    <div className= "test">test</div>
-    <div className= "test">test</div><div className= "test">test</div>
-    <div className= "test">test</div>
-    <div className= "test">test</div>
-    <div className= "test">test</div>
-    <div className= "test">test</div>
-    <div className= "test">test</div>
-    <div className= "test">test</div><div className= "test">test</div>
-    <div className= "test">test</div>
-    <div className= "test">test</div>
-    <div className= "test">test</div>
-    <div className= "test">test</div>
-    <div className= "test">test</div>
-    <div className= "test">test</div>
+    fetch('https://randomuser.me/api/')
+  .then(response => response.json())
+  .then(data => {
+    // Access the user data from the response
+    const user = data.results[0];
+    console.log(user);
+  })
+  .catch(error => console.error('Error fetching random user:', error));
     </>
   )
 }
