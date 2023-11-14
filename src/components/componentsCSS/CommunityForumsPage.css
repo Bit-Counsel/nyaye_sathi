@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/copperplate-gothic-std');
+
 
 *{
     margin: 0;
@@ -14,4 +14,29 @@
 html,body{   
     width: 100vw;
     height: 100vh;
+}
+.community{
+    display: flex;
+    margin-top: 3vh;
+    gap: 20px;
+}
+.searchBar{
+    margin-top: 2rem;
+    width: 59rem;
+    border: 2px solid black;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    border-radius : 12rem;
+    padding-left:2rem;
+    font: bold 22px var(--sec_font) ; 
+}
+.askBtn{
+    margin-top: 4vh;
+    border-radius: 24px;
+    height: 3rem;
+    width: 12rem;
+    color: var(--prim-color);
+    background-color: var(--sec-color);
+    font: 22px var(--sec_font) ; 
 }

@@ -1,10 +1,10 @@
 import React from 'react'
-
+import "../componentsCSS/SearchBar.css"
 function SearchBar(props) {
   return (
     <>
-    <div className={`fixed search-Bar-${props.mode}`}>
-          <div className={`bar-${props.mode}`}>Search here.</div>
+    <div className={`search-bar-generic-${props.mode}`}>
+          <div className={`bar-generic-${props.mode}`}>Search here.</div>
         </div>
     </>
   )

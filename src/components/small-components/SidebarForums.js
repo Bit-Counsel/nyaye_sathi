@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React  from "react";
 import "../componentsCSS/SidebarForums.css";
-import Navbar from "./Navbar";
 import SidebarBtn from "./SidebarBtn";
 function SidebarForums() {
   return (
     <>
-      <div className="sidebar">
+      <div className="sidebar-side">
         <SidebarBtn BtnText="Home" />
         <div className="sidebarBox">
           <p className="sidebar-text">PUBLIC</p>

@@ -1,9 +1,10 @@
-@import url('https://fonts.cdnfonts.com/css/copperplate-gothic-std');
 
 *{
     margin: 0;
     box-sizing: border-box;
     font-family: var(--sec_font);
+    /* border: 2px solid black; */
+    /* width: 15%; */
 }
 :root{
     --prim_font : "Copperplate Gothic", serif;
@@ -12,12 +13,9 @@
     --sec-color: black; 
     --btn-color: lightblue;
 }
-.sidebar{
-    position: relative;
-    /* bottom: 20px; */
-    width: 15vw;
-    height: 80vh;
-    border: 2px solid black;
+.sidebar-side{
+    
+    /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
     align-items: end;

@@ -1,9 +1,10 @@
 NOTES!!!!!!
 
+  make questions tab in COMMUNITY FORUMS
 
- 1. make profile icon component and add in ServicesPage
- 2. make products page 
- 3. SAME TO COMMUNITY FORUMS
- 4. MAKE MIND MAP  
- 5. make  Filter/sort button working 
- 6. make profile page
+  make profile icon component and add in ServicesPage
+  make products page 
+  SAME TO COMMUNITY FORUMS
+  MAKE MIND MAP  
+  make  Filter/sort button working 
+  make profile page

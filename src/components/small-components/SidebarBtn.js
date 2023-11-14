@@ -10,3 +10,8 @@ function SidebarBtn(props) {
 }
 
 export default SidebarBtn;
+
+SidebarBtn.defaultProps = {
+  BtnTextSize: "textLarge",
+  BtnText: "text"
+}
