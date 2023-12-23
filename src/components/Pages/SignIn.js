@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 import "../componentsCSS/SignIn.css";
 
-import googleIcon from "../../photo/googleIcon.png";
+import googleIcon from "../../assests/googleIcon.png";
 
 import Logo from "../small-components/Logo";
 import InputText from "../small-components/InputText";

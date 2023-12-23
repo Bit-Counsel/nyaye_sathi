@@ -10,7 +10,7 @@ import Title from "../small-components/Title";
 import InputField from "../small-components/InputField";
 import InputText from "../small-components/InputText";
 
-import googleIcon from "../../photo/googleIcon.png";
+import googleIcon from "../../assests/googleIcon.png";
 
 function SignUp() {
   return (

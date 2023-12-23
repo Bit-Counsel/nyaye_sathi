@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import "../componentsCSS/LandingPage.css";
 
-import NSLogo from "../../photo/NSLogo.png";
+import NSLogo from "../../assests/NSLogo.png";
 function LandingPage() {
   return (
     <>

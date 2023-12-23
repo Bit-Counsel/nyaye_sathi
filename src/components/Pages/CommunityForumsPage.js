@@ -19,7 +19,7 @@ function CommunityForumsPage() {
           </div>
         </div>
         <button className="askBtn">Ask a question</button>
-      </div>
+      </div>f
     </>
   );
 }

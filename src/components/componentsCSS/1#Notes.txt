@@ -1,6 +1,6 @@
 NOTES!!!!!!
 
-  make questions tab in COMMUNITY FORUMS
+  
 
   make profile icon component and add in ServicesPage
   make products page 

@@ -1,6 +1,7 @@
 import React from 'react'
-import NSLogo from "../../photo/NSLogo.png";
-// import googleIcon from "../photo/googleIcon.png";
+
+import NSLogo from "../../assests/NSLogo.png";
+
 import "../componentsCSS/Logo.css";
 
 function Logo(props) {

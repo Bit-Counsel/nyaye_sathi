@@ -1,8 +1,11 @@
 import React from "react";
-import "../componentsCSS/Navbar.css";
-import NSLogo from "../../photo/NSLogo.png";
-import NSLogoWhite from "../../photo/NSLogoWhite.png";
 import {Link} from "react-router-dom"
+
+import "../componentsCSS/Navbar.css";
+
+import NSLogo from "../../assests/NSLogo.png";
+import NSLogoWhite from "../../assests/NSLogoWhite.png";
+
 function Navbar(props) {
   return (
     <>
